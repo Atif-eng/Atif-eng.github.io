@@ -316,7 +316,7 @@
         </div>
         <p class="hero-sub">Data Science undergraduate student specializing in productionizing predictive modeling frameworks, financial risk evaluation, and localized neural pipelines.</p>
         <div class="cta-group">
-            <a href="https://loanpaybackpredictionapp-c2fbcph9kdnqkndehdxkac.streamlit.app/" target="_blank" class="btn-primary">
+            <a href="https://distributed-system-app-uqvniwwxqprnlkyyknhnfo.streamlit.app/" target="_blank" class="btn-primary">
                 Launch Live App <i data-lucide="external-link" style="width:16px;height:16px;"></i>
             </a>
             <a href="https://www.kaggle.com/atifkhan12" target="_blank" class="btn-secondary">
@@ -352,8 +352,9 @@
             <div class="arsenal-card">
                 <h3><i data-lucide="git-branch" style="width:16px;color:var(--accent-blue)"></i> Infrastructure</h3>
                 <span class="tech-badge">Streamlit</span>
-                <span class="tech-badge">Git / GitHub</span>
+                <span class="tech-badge">Dask Distributed</span>
                 <span class="tech-badge">REST API Design</span>
+                <span class="tech-badge">Git / GitHub</span>
             </div>
         </div>
     </section>
@@ -364,6 +365,7 @@
         
         <div class="filter-controls">
             <button class="filter-btn active" onclick="filterCategory('all')">All Nodes</button>
+            <button class="filter-btn" onclick="filterCategory('infra')">Distributed Systems</button>
             <button class="filter-btn" onclick="filterCategory('ml')">Machine Learning</button>
             <button class="filter-btn" onclick="filterCategory('dl')">Deep Learning</button>
             <button class="filter-btn" onclick="filterCategory('eda')">Advanced EDA</button>
@@ -386,6 +388,14 @@
         // --- LOW CODE ENGINE: CONFIGURATION MATRIX ---
         // Naya project add karne ke liye bas is array mein ek object barha dein!
         const projectsData = [
+            {
+                title: "Distributed Processor & Telemetry Dashboard",
+                desc: "Engineered a high-performance machine learning execution system that shards datasets across multi-core virtual nodes via Dask. Features real-time worker telemetry and serial vs parallel speedup benchmarks.",
+                tech: "Dask Distributed • XGBoost (dxgb) • Streamlit",
+                status: "Distributed Engine",
+                category: "infra",
+                url: "https://distributed-system-app-uqvniwwxqprnlkyyknhnfo.streamlit.app/"
+            },
             {
                 title: "Prediction Loan Payback System",
                 desc: "Engineered an end-to-end default prediction matrix model on credit profile arrays, integrating preprocessing pipelines to extract distinct repayment hazard scales cleanly.",
